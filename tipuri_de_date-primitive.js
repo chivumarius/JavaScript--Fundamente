@@ -4,7 +4,7 @@
 
 /*
     __________________________________________________
-    IN 'JS' EXISTA 2 CATEGORI DE TIPURI DE DATE color: 'rgba(255, 255, 255, 1)',
+    IN 'JS' EXISTA 2 CATEGORI DE TIPURI DE DATE:
        [I]  TIPURI 'PRIMITIVE'
        [II] TIPURI DE 'REFERINTA'
     __________________________________________________
