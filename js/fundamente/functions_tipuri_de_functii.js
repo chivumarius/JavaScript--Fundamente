@@ -1,5 +1,5 @@
 /* ==========================================
-      'FUNCTIONS'/ 'FUNCTII' (TIPURI DE DATE 'REFERINTA')
+     TIPURI DE 'FUNCTII'
 =============================================*/
 
 /*
@@ -12,6 +12,8 @@
     __________________________________________________
 */
 
+// =============================================
+// (1) FUNCTIE CE REALIZEAZA O SARCINA
 // =============================================
 // FUNCTIA - 'SALUTARE' 
 // (LOGICA: 'AFISAREA MESAJULUI IN CONSOLA'):
@@ -60,3 +62,24 @@ function salutare(nume, numeFamilie) {
 // 'APELAREA'/'AFISAREA'  'FUNCTIEI' CU 'PARAMETRII MULTIPLI':
 salutare('Marian', 'Chivu');
 salutare('Stefan', 'Gheorghe');
+
+
+// =============================================
+// (2) FUNCTIE CE CALCULEAZA O VALOARE
+// =============================================
+// FUNCTIA - 'PATRAT()' 
+function patrat(numar) {
+    // 'RETURNAREA VALORII' - PRIN KEYWORD-UL 'RETURN'
+    // ('ORICUI' APELEAZA 'FUNCTIA'):
+    return numar * numar;
+}
+
+// INITIALIZAREA VARIABILEI 'NUMAR' 
+// (PRIN 'APELAREA FUNCTIEI'):
+// let numar = patrat(5);
+
+// AFISAREA 'VARIABILEI':
+// console.log(numar);
+
+// AFISAREA  'DIRECTA' A 'FUNCTIEI':
+console.log(patrat(5));
