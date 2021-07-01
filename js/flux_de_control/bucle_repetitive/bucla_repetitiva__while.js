@@ -25,6 +25,10 @@
         WHILE (CONDITIA) {
                 ..INSTRUCTIUNI
             }
+    
+    
+    (NB!) 'CONDITIA' ESTE 'EVALUATA' LA 'INCEPUT' 
+        => IAR 'INSTRUCTIUNIILE' 'NU SUNT' INTOTDEAUNA 'EVALUATE'.
     __________________________________________________________________________
 */
 

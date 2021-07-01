@@ -1,6 +1,6 @@
 /* ============================================================================
         FLUX  DE  CONTROL - 
-        BUCLA  REPETITIVA -- 'FOR'
+        BUCLA  REPETITIVA -- 'DO ... WHILE'
 ===============================================================================*/
 /*
     __________________________________________________________________________
@@ -18,68 +18,68 @@
 
 /*
     __________________________________________________________________________
-    BUCLA REPETITIVA - 'FOR'
+    BUCLA REPETITIVA - 'DO ... WHILE'
 
     SINTAXA:
 
-        FOR ( 
-                EXPRESIA_INITIALA_(ADICA_'INITTIALIZAREA_UNEI_VARIABILE);
-                CONDITIA;
-                EXPRESIA_DE_INCREMENTARE;
-            ) {
+        DO) {
                 ..INSTRUCTIUNI
-            }
-
-        (NB!) 'CONDITIA' ESTE 'EVALUATA' LA 'INCEPUT' 
-            => IAR 'INSTRUCTIUNIILE' 'NU SUNT' INTOTDEAUNA 'EVALUATE'.
+        } WHILE ( CONDITIA );
+    
+    (NB!) 'CONDITIA' ESTE 'EVALUATA' LA 'SFARSIT' 
+        => IAR 'INSTRUCTIUNIILE' SUNT 'INTOTDEAUNA' 'EVALUATE'.
     __________________________________________________________________________
 */
+
+
+
 //===============================================================================
-//  EX. 1 - BUCLA  REPETITIVA 'FOR' ('REPETAT' DE '5 ORI'):
+// BUCLA 'FOR' CU 'CONDITIONALA':
 //===============================================================================
 // for (let i = 0; i <= 5; i++) {
-//     console.log('Salutare Lume!');
+
+// CONDITIONALA (AFLARE 'NR. IMPARe'):
+//     if (i % 2 !== 0)
+//         console.log(i);
 // }
 
-// 'BUCLA' - CU 'AFISARE' DE LA '0'  LA '4':
-// for (let i = 0; i <= 5; i++) {
-//     console.log('Salutare Lume!', i);
+
+//===============================================================================
+//  BUCLA  REPETITIVA 'WHILE' 
+//===============================================================================
+
+// INITIALIZREA  VARIABILEI:
+// let i = 0;
+
+// BUCLA 'WHILE':
+// while (i <= 5) {
+// INSTRUCTIUNEA 'CONDITIONALA' (AFLARE 'NR. IMPARe'):
+// if (i % 2 !== 0) {
+// AFISAREA 'I':
+//     console.log(i);
 // }
 
-// 'BUCLA' - CU 'AFISARE' DE LA '1'  LA '5':
-for (let i = 1; i <= 5; i++) {
-    console.log('Salutare Lume!', i);
-}
+// INCREMENTAREA:
+//     i++;
+// }
 
-//===============================================================================
-// EX. 2 - 'BUCLA' CU 'CONDITIONALA':
-//===============================================================================
-for (let i = 1; i <= 5; i++) {
-
-    // CONDITIONALA (AFLARE 'NR. IMPARe'):
-    // if (i % 2 !== 0) {
-    //     console.log(i);
-    // }
-
-    // CONDITIONALA (AFLARE 'NR. PARE'):
-    if (i % 2 === 0) {
-        console.log(i);
-    }
-}
 
 
 //===============================================================================
-// EX. 3 - 'BUCLA' CU 'DECREMENTARE':
+//  BUCLA  REPETITIVA 'DO ... WHILE' 
 //===============================================================================
-for (let i = 5; i >= 1; i--) {
 
-    // CONDITIONALA (AFLARE 'NR. IMPARe'):
+// INITIALIZREA  VARIABILEI:
+let i = 0;
+
+// BUCLA 'DO ... WHILE':
+do {
+    // INSTRUCTIUNEA 'CONDITIONALA' (AFLARE 'NR. IMPARe'):
     if (i % 2 !== 0) {
+        // AFISAREA 'I':
         console.log(i);
     }
 
-    // CONDITIONALA (AFLARE 'NR. PARE'):
-    // if (i % 2 === 0) {
-    //     console.log(i);
-    // }
-}
+    // INCREMENTAREA:
+    i++;
+} while (i <= 5);
