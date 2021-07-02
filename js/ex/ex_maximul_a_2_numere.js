@@ -1,6 +1,6 @@
 /* ==========================================
      EXERCITIU:
-     AVLAREA 'VALORII  MAXIME' A '2 NUMERE'
+     AFLAREA 'VALORII  MAXIME' A '2 NUMERE'
 =============================================*/
 
 /*
