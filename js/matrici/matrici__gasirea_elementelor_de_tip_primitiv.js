@@ -1,6 +1,6 @@
 /* =============================================================
    MATRICI:
-   ASIREA  'ELEMENTELOR'  DE  TIP  'PRIMITIV'
+   GASIREA  'ELEMENTELOR'  DE  TIP  'PRIMITIV'
 ============================================================= */
 
 /*
