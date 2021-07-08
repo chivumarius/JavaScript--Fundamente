@@ -11,7 +11,7 @@ console.log('________________________________');
 //   PT. SORTAREA 'ELEMENTELOR' UNEI 'MATRICE'
 //=============================================================
 
-// MATRICA DEZORDONATA
+// MATRICEA DEZORDONATA
 const numere = [8, 4, 3, 6, 1, 5, 2, 7];
 
 // METODA 'SORT()'
